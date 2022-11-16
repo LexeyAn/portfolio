@@ -1,0 +1,12 @@
+.place {
+  display: grid;
+  grid-template-columns: minmax(320px, 460px) minmax(288px, 484px);
+  justify-content: space-between;
+  row-gap: 48px;
+  column-gap: 40px;
+  padding-bottom: 80px;
+}
+
+.place:last-of-type {
+  padding-bottom: 0;
+}

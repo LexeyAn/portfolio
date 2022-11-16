@@ -1,0 +1,7 @@
+.table__li {
+  margin-left: 18px;
+}
+
+.footer > .table > .table__li:nth-child(1) {
+  margin-left: 0;
+}
