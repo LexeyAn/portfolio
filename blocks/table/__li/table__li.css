@@ -7,18 +7,6 @@
   margin-left: 2px;
 }
 
-@media screen and (max-width: 1279px) {
-  .header {
-
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .header {
-
-  }
-}
-
 @media screen and (max-width: 767px) {
   .navigation> .table > .table__li {
     margin: 0 0 32px;

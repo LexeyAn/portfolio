@@ -6,18 +6,6 @@
   list-style: none;
 }
 
-@media screen and (max-width: 1279px) {
-  .header {
-
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .header {
-
-  }
-}
-
 @media screen and (max-width: 767px) {
   .navigation > .table {
     display: block;
