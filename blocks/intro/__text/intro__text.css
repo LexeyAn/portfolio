@@ -5,3 +5,9 @@
   max-width: 690px;
   line-height: 163%;
 }
+
+@media screen and (max-width: 767px) {
+  .intro__text {
+    margin-bottom: 32px;
+  }
+}

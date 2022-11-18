@@ -2,14 +2,29 @@
   max-width: calc(100% - 96px);
   margin: 0 auto;
   color: #FFFFFF;
-  padding-bottom: 24px;
+  padding-bottom: 18px;
   padding-top: 89px;
   display: flex;
   justify-content: space-between;
 }
 
-@media screen and (max-width: 1023px) and (min-width: 768px) {
+@media screen and (max-width: 1279px) {
+  .footer {
+
+  }
+}
+
+@media screen and (max-width: 1023px) {
   .footer {
     max-width: calc(100% - 48px);
+    padding-top: 83px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    max-width: calc(100% - 32px);
+    display: block;
+    padding-top: 64px;
   }
 }
