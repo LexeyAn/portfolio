@@ -7,3 +7,10 @@
   padding-bottom: 92px;
 }
 
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+  .photo-grid {
+    max-width: 928px;
+    gap: 14px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
