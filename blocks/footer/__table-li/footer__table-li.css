@@ -1,14 +1,14 @@
-.table__li {
+.footer__table-li {
   margin-left: 18px;
   margin-bottom: 5px;
 }
 
-.navigation> .table > .table__li:nth-child(1) {
+.footer__table-li:nth-child(1) {
   margin-left: 2px;
 }
 
 @media screen and (max-width: 767px) {
-  .navigation> .table > .table__li {
+  .footer__table-li {
     margin: 0 0 32px;
   }
 }

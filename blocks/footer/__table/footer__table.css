@@ -1,4 +1,4 @@
-.table {
+.footer__table {
   padding-left: 0;
   display: flex;
   align-items: flex-end;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .navigation > .table {
+  .footer__table {
     display: block;
   }
 }

@@ -1,3 +1,26 @@
 .cover__title-link {
   text-decoration: none;
+  display: block;
+  padding: 245px calc((100% - 560px)/2);
+  z-index: 1;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__title-link {
+    padding-top: 195px;
+    padding-bottom: 195px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__title-link {
+    padding-top: 115px;
+    padding-bottom: 115px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__title-link {
+    padding: 33px calc((100% - 276px)/2);
+  }
 }
