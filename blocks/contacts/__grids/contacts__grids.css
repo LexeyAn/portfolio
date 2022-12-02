@@ -1,0 +1,8 @@
+.contacts__grids {
+  max-width: 470px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 20%);
+  justify-content: space-between;
+  padding: 0 15px;
+}

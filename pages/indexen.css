@@ -2,14 +2,14 @@
 @import url(../fonts/fonts.css);
 @import url(../blocks/html/html.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/ru/lang/lang.css);
-@import url(../blocks/ru/header/header.css);
+@import url(../blocks/lang/lang.css);
+@import url(../blocks/header/header.css);
 @import url(../blocks/header/__navi/header__navi.css);
 @import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/__list/header__list.css);
 @import url(../blocks/home/home.css);
 @import url(../blocks/home/__textForMe/home__textForMe.css);
-@import url(../blocks/ru/home/__myName/home__myName.css);
+@import url(../blocks/home/__myName/home__myName.css);
 @import url(../blocks/home/__myProfession/home__myProfession.css);
 @import url(../blocks/home/__lang/home__lang.css);
 @import url(../blocks/home/__foto/home__foto.css);

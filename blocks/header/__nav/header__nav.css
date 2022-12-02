@@ -1,0 +1,9 @@
+.header__nav {
+  max-width: 940px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0px 5px;
+  text-align: center;
+}

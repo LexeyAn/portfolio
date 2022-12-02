@@ -1,0 +1,11 @@
+.aboutMe__info {
+  margin: 0;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 0 5px;
+}
+
+.aboutMe__info:nth-child(2) {
+  margin: 30px auto;
+}
+

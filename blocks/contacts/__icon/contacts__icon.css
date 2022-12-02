@@ -1,0 +1,24 @@
+@keyframes puls {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+.contacts__icon {
+  width: 100%;
+}
+
+.contacts__icon_1 {
+  animation: puls 1s linear infinite alternate ;
+}
+
+.contacts__icon_2 {
+  animation: puls 1s linear infinite alternate 0.25s;
+}
+
+.contacts__icon_3 {
+  animation: puls 1s linear infinite alternate 0.5s;
+}

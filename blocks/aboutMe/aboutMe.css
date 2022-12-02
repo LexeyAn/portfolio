@@ -1,0 +1,10 @@
+.aboutMe {
+  background-color: #F6F6F6;
+  padding: 90px 0 100px;
+}
+
+@media screen and (max-width: 800px) {
+  .aboutMe {
+        padding: 50px 0 50px;
+  }
+}

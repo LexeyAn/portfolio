@@ -1,0 +1,8 @@
+.skills__grids {
+  max-width: 944px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  justify-content: space-between;
+  padding: 0 15px;
+}

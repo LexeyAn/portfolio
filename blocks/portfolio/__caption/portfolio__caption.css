@@ -1,0 +1,26 @@
+.portfolio__caption {
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  font-weight: 400;
+  margin: 0;
+}
+
+.portfolio__caption > p:nth-child(1) {
+  text-decoration-line: underline;
+  font-weight: 600;
+  margin: 7px 0 0;
+}
+
+.portfolio__caption > p:nth-child(2) {
+    margin: 10px 0 0;
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width: 800px) {
+  .portfolio__caption > p:nth-child(2) {
+        padding-bottom: 50px;
+}
+}
+

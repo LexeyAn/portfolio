@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./pages/indexen.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello, I'm frontend developer!</title>
+</head>
+
+<body class="page">
+
+  <header class="header">
+    <nav class="header__navi">
+      <ul class="header__nav">
+        <li><a class="header__list" href="#home">Home</a></li>
+        <li><a class="header__list" href="#aboutMe">About me</a></li>
+        <li><a class="header__list" href="#skills">Skills</a></li>
+        <li><a class="header__list" href="#portfolio">Portfolio</a></li>
+        <li><a class="header__list" href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="home" id="home">
+      <div class="home__textForMe">
+        <h1 class="home__myName">Aleksei Anisimov</h1>
+        <div>
+          <p class="home__myProfession">Frontend developer</p>
+          <p class="home__myProfession">35 years old, Penza</p>
+        </div>
+        <div class="home_lang">
+          <a href="./index.html" class="ru lang">Ru</a>
+          <span>|</span>
+          <a href="#" class="en lang">Eng</a>
+        </div>
+      </div>
+      <div class="home__foto">
+        <img src="./images/MyFoto.jpg" alt="My foto" class="home__fotomy">
+      </div>
+    </section>
+
+    <section class="aboutMe" id="aboutMe">
+      <h2 class="aboutMe__meAbout">About me</h2>
+      <div class="aboutMe__onMe">
+        <p class="aboutMe__info">Hi, I'm Aleksei – Frontend developer from Penza.
+          I'm interested in Frontend develop and everything connected with it.</p>
+        <p class="aboutMe__info">I'm studying at courses "Web developer" in Yandex Practicum.</p>
+        <p class="aboutMe__info">Ready to implement excellent projects
+          with wonderful people.</p>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h3 class="skills__title">Skills</h3>
+      <p class="skills__subtitle">I use such tools as</p>
+
+      <div class="skills__grids">
+
+        <div class="skills__grid">
+          <img src="./images/HTML.jpg" alt="html icon" class="skills__img">
+          <p class="skills__tools">html</p>
+        </div>
+
+        <div class="skills__grid">
+          <img src="./images/FIGMA.jpg" alt="figma icon" class="skills__img">
+          <p class="skills__tools">figma</p>
+        </div>
+
+        <div class="skills__grid">
+          <img src="./images/PhotoShop.jpg" alt="Adobe Photoshop icon" class="skills__img">
+          <p class="skills__tools">adobe photoshop</p>
+        </div>
+
+        <div class="skills__grid">
+          <img src="./images/CSS.jpg" alt="css icon" class="skills__img">
+          <p class="skills__tools">css</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h4 class="portfolio__title">Portfolio</h4>
+      <div class="portfolio__grids">
+
+        <figure class="portfolio__grid">
+          <a href="https://lexeyan.github.io/russian-travel/index.html" title="The website Travel in Russia"
+            target="_blank">
+            <img class="portfolio__img" src="./images/Путешествия по России.jpg" alt="website Travel in Russia">
+          </a>
+          <figcaption class="portfolio__caption">
+            <p class="p1">The website "Travel in Russia".</p>
+            <p class="p1">In this site I used adaptive layout, grid and flexbox skills.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="portfolio__grid">
+          <a href="https://lexeyan.github.io/how-to-learn/index.html" title="The website How to learn" target="_blank">
+            <img class="portfolio__img" src="./images/Научиться учиться.jpg" alt="website How to learn">
+          </a>
+          <figcaption class="portfolio__caption">
+            <p class="p1">The website "How to learn".</p>
+            <p class="p1">In this site I used flexbox, animation, frames skills. This site is not adaptive.</p>
+          </figcaption>
+        </figure>
+
+    </section>
+
+    </div>
+
+    <section class="contacts" id="contacts">
+      <h3 class="contacts__title">Contacts</h3>
+      <p class="contacts__subtitle">Want to know more or just chat?
+        You are welcome!</p>
+      <div class="contacts__grids">
+        <a href="https://wa.me/79374022880" title="Write in Whatsapp" target="_blank" rel="noopener noreferrer">
+          <img class="contacts__icon contacts__icon_1" src="./images/386747_whatsapp_call_whats app_icon.png" alt="Whatsapp icon">
+        </a>
+        <a href="viber://add?number=79374022880" title="Write in Viber. Only from the phone." target="_blank" rel="noopener noreferrer">
+          <img class="contacts__icon contacts__icon_2" src="./images/386738_viber_call_phone_icon.png" alt="Viber icon">
+        </a>
+        <a href="tg://resolve?domain=Lexeyan58" target="_blank" title="Write in Telegram" rel="noopener noreferrer">
+          <img class="contacts__icon contacts__icon_3" src="./images/986956_telegram_icon.png" alt="Telegram icon">
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__subtitle">It was nice to meet you!</p>
+  </footer>
+
+</body>
+
+</html>

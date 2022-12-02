@@ -1,0 +1,9 @@
+.contacts {
+  padding: 90px 0 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .contacts {
+    padding-top: 50px;
+  }
+}

@@ -1,0 +1,14 @@
+.skills__tools {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  margin: 23px 0 0;
+}
+
+@media screen and (max-width: 500px) {
+  .skills__tools {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,22 @@
+.home__myName {
+  font-size: 47px;
+  line-height: 59px;
+  color: #070707;
+  margin: 0;
+  max-width: 240px;
+}
+
+@media screen and (max-width: 430px) {
+  .home__myName {
+    font-size: 36px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .home__myName {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+

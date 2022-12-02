@@ -1,0 +1,19 @@
+.home__myProfession {
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  max-width: 168px;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.home__myProfession:nth-child(2) {
+  border-top: 1px solid #828282;
+}
+
+@media screen and (max-width: 400px) {
+  .home__myProfession {
+    font-size: 14px;
+  line-height: 16px;
+  }
+}

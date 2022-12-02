@@ -1,0 +1,13 @@
+.portfolio__grids {
+  max-width: 944px;
+  display: grid;
+  grid-template-columns: minmax(1px,944px);
+  margin: 0 auto;
+  padding: 0px 24px;
+}
+
+@media screen and (max-width: 400px) {
+  .portfolio__grids {
+        padding: 0px 10px;
+  }
+}

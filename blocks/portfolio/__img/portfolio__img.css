@@ -1,0 +1,9 @@
+.portfolio__img {
+  width: 100%;
+  transition: transform .3s linear, opacity .3s linear;
+}
+
+.portfolio__img:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
